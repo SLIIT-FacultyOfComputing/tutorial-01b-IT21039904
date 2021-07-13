@@ -28,7 +28,7 @@ int main() {
 
     if(distance < 30)
       cost = distance * 50;
-      
+
     else if (distance > 30)
       cost = 1500 * ((distance-30)*40);
 
